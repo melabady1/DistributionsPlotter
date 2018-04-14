@@ -42,7 +42,9 @@ shinyUI(fluidPage(
     # Show a plot of the generated distribution
     mainPanel(
       plotlyOutput("distPlot"),
-      helpText("Hover on the curve to get the denisty value.")
+      helpText("Hover on the curve to get the denisty value."),
+      helpText("Note: If you have slow internet connection, the curve may br delayed.",
+               "Be patient please.")
     )
   )
 ))
