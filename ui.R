@@ -16,7 +16,7 @@ library(plotly)
 shinyUI(fluidPage(
   
   # Application title
-  titlePanel("t distribution vs normal distribution"),
+  titlePanel("Comparing t distribution and normal distribution"),
   
   # Sidebar with a slider input for number of bins 
   sidebarLayout(
