@@ -43,7 +43,7 @@ shinyUI(fluidPage(
     mainPanel(
       plotlyOutput("distPlot"),
       helpText("Hover on the curve to get the denisty value."),
-      helpText("Note: If you have slow internet connection, the curve may br delayed.",
+      helpText("Note: If you have slow internet connection, the curve may be delayed.",
                "Be patient please.")
     )
   )
